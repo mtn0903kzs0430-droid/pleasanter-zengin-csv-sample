@@ -1,0 +1,455 @@
+{
+  "records": [
+    {
+      "ClassHash": {
+        "ClassA": "9826",
+        "ClassB": "0010",
+        "ClassC": "001",
+        "ClassD": "1",
+        "ClassE": "1234567",
+        "ClassF": "ｴ-ﾋﾞ-ｼ-(ｶ",
+        "ClassH": "りそな銀行",
+        "ClassI": "",
+        "ClassJ": ""
+      },
+      "NumHash": {
+        "NumA": 12300
+      },
+      "DateHash": {
+        "DateA": "2026-09-25T00:00:00",
+        "DateB": "1899-12-30T00:00:00"
+      },
+      "DescriptionHash": {
+        "DescriptionA": ""
+      },
+      "CheckHash": {},
+      "SiteId": 9825,
+      "ResultId": 9990,
+      "Ver": 1,
+      "Title": "2026/09/25_ABC株式会社",
+      "Body": "商品代",
+      "Status": 100,
+      "Locked": false,
+      "Comments": [],
+      "Creator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "Updator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "ClassA": "9826",
+      "ClassB": "0010",
+      "ClassC": "001",
+      "ClassD": "1",
+      "ClassE": "1234567",
+      "ClassF": "ｴ-ﾋﾞ-ｼ-(ｶ",
+      "ClassH": "りそな銀行",
+      "ClassI": "",
+      "ClassJ": "",
+      "NumA": 12300,
+      "DateA": "2026-09-25T00:00:00",
+      "DateB": "1899-12-30T00:00:00",
+      "DescriptionA": ""
+    },
+    {
+      "ClassHash": {
+        "ClassA": "9989",
+        "ClassB": "0010",
+        "ClassC": "005",
+        "ClassD": "1",
+        "ClassE": "111111",
+        "ClassF": "ｶ)ｱｲｳｴｵ",
+        "ClassH": "りそな銀行",
+        "ClassI": "",
+        "ClassJ": ""
+      },
+      "NumHash": {
+        "NumA": 35245
+      },
+      "DateHash": {
+        "DateA": "2026-09-30T00:00:00",
+        "DateB": "1899-12-30T00:00:00"
+      },
+      "DescriptionHash": {
+        "DescriptionA": ""
+      },
+      "CheckHash": {},
+      "SiteId": 9825,
+      "ResultId": 9991,
+      "Ver": 1,
+      "Title": "2026/09/30_株式会社あいうえお",
+      "Body": "機器レンタル料金",
+      "Status": 100,
+      "Locked": false,
+      "Comments": [],
+      "Creator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "Updator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "ClassA": "9989",
+      "ClassB": "0010",
+      "ClassC": "005",
+      "ClassD": "1",
+      "ClassE": "111111",
+      "ClassF": "ｶ)ｱｲｳｴｵ",
+      "ClassH": "りそな銀行",
+      "ClassI": "",
+      "ClassJ": "",
+      "NumA": 35245,
+      "DateA": "2026-09-30T00:00:00",
+      "DateB": "1899-12-30T00:00:00",
+      "DescriptionA": ""
+    },
+    {
+      "ClassHash": {
+        "ClassA": "9989",
+        "ClassB": "0010",
+        "ClassC": "005",
+        "ClassD": "1",
+        "ClassE": "111111",
+        "ClassF": "ｶ)ｱｲｳｴｵ",
+        "ClassH": "りそな銀行",
+        "ClassI": "",
+        "ClassJ": ""
+      },
+      "NumHash": {
+        "NumA": 11000
+      },
+      "DateHash": {
+        "DateA": "2026-09-30T00:00:00",
+        "DateB": "1899-12-30T00:00:00"
+      },
+      "DescriptionHash": {
+        "DescriptionA": ""
+      },
+      "CheckHash": {},
+      "SiteId": 9825,
+      "ResultId": 9992,
+      "Ver": 1,
+      "Title": "2026/09/30_株式会社あいうえお",
+      "Body": "9月保守",
+      "Status": 100,
+      "Locked": false,
+      "Comments": [],
+      "Creator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "Updator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "ClassA": "9989",
+      "ClassB": "0010",
+      "ClassC": "005",
+      "ClassD": "1",
+      "ClassE": "111111",
+      "ClassF": "ｶ)ｱｲｳｴｵ",
+      "ClassH": "りそな銀行",
+      "ClassI": "",
+      "ClassJ": "",
+      "NumA": 11000,
+      "DateA": "2026-09-30T00:00:00",
+      "DateB": "1899-12-30T00:00:00",
+      "DescriptionA": ""
+    },
+    {
+      "ClassHash": {
+        "ClassA": "9826",
+        "ClassB": "0010",
+        "ClassC": "001",
+        "ClassD": "1",
+        "ClassE": "1234567",
+        "ClassF": "ｴ-ﾋﾞ-ｼ-(ｶ",
+        "ClassH": "りそな銀行",
+        "ClassI": "イチゴ支店",
+        "ClassJ": "T0010001000100"
+      },
+      "NumHash": {
+        "NumA": 0
+      },
+      "DateHash": {
+        "DateA": "1899-12-30T00:00:00",
+        "DateB": "1899-12-30T00:00:00"
+      },
+      "DescriptionHash": {
+        "DescriptionA": ""
+      },
+      "CheckHash": {},
+      "SiteId": 9825,
+      "ResultId": 9993,
+      "Ver": 1,
+      "Title": "ABC株式会社",
+      "Body": "",
+      "Status": 100,
+      "Locked": false,
+      "Comments": [],
+      "Creator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "Updator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "ClassA": "9826",
+      "ClassB": "0010",
+      "ClassC": "001",
+      "ClassD": "1",
+      "ClassE": "1234567",
+      "ClassF": "ｴ-ﾋﾞ-ｼ-(ｶ",
+      "ClassH": "りそな銀行",
+      "ClassI": "イチゴ支店",
+      "ClassJ": "T0010001000100",
+      "NumA": 0,
+      "DateA": "1899-12-30T00:00:00",
+      "DateB": "1899-12-30T00:00:00",
+      "DescriptionA": ""
+    },
+    {
+      "ClassHash": {
+        "ClassA": "9989",
+        "ClassB": "0010",
+        "ClassC": "005",
+        "ClassD": "1",
+        "ClassE": "111111",
+        "ClassF": "ｶ)ｱｲｳｴｵ",
+        "ClassH": "りそな銀行",
+        "ClassI": "天理支店",
+        "ClassJ": "T1234567123456"
+      },
+      "NumHash": {
+        "NumA": 10000
+      },
+      "DateHash": {
+        "DateA": "2026-09-30T00:00:00",
+        "DateB": "1899-12-30T00:00:00"
+      },
+      "DescriptionHash": {
+        "DescriptionA": ""
+      },
+      "CheckHash": {},
+      "SiteId": 9825,
+      "ResultId": 9994,
+      "Ver": 1,
+      "Title": "2026/09/30_株式会社あいうえお",
+      "Body": "",
+      "Status": 100,
+      "Locked": false,
+      "Comments": [],
+      "Creator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "Updator": {
+        "TenantId": 1,
+        "Id": 1,
+        "DeptId": 0,
+        "Dept": {
+          "TenantId": 0,
+          "Id": 0,
+          "Disabled": false
+        },
+        "LoginId": "Administrator",
+        "Name": "Administrator",
+        "UserCode": "",
+        "Body": "",
+        "TenantManager": true,
+        "ServiceManager": false,
+        "AllowCreationAtTopSite": false,
+        "AllowGroupAdministration": false,
+        "AllowGroupCreation": false,
+        "AllowApi": false,
+        "AllowMovingFromTopSite": false,
+        "Disabled": false
+      },
+      "ClassA": "9989",
+      "ClassB": "0010",
+      "ClassC": "005",
+      "ClassD": "1",
+      "ClassE": "111111",
+      "ClassF": "ｶ)ｱｲｳｴｵ",
+      "ClassH": "りそな銀行",
+      "ClassI": "天理支店",
+      "ClassJ": "T1234567123456",
+      "NumA": 10000,
+      "DateA": "2026-09-30T00:00:00",
+      "DateB": "1899-12-30T00:00:00",
+      "DescriptionA": ""
+    }
+  ],
+  "dummy": {
+    "companyCode": "0000000000",
+    "companyName": "ﾃｽﾄ(ｶ",
+    "branch": "000",
+    "account": "0000000"
+  }
+}

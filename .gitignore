@@ -1,0 +1,18 @@
+# 実運用データ・秘密情報・一時ファイルを追加しない
+.env
+.env.*
+!.env.example
+*.csv
+*.xlsm
+*.xlsx
+*.log
+*.tmp
+~$*
+node_modules/
+materials/
+work/
+private/
+local-settings/
+
+# 初期化済み配布ブックだけを追跡する。運用後のブックで上書きしない。
+!/excel/楽天銀行_全銀CSV出力_配布用_v1.1.xlsm

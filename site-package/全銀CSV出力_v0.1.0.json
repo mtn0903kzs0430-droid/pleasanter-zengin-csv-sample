@@ -1,0 +1,698 @@
+﻿{
+  "HeaderInfo": {
+    "AssemblyVersion": "1.5.2.0",
+    "BaseSiteId": 10116,
+    "Server": "http://localhost",
+    "CreatorName": "",
+    "PackageTime": "2026-10-15T11:45:23.5721629+09:00",
+    "Convertors": [
+      {
+        "SiteId": 10116,
+        "SiteTitle": "全銀フォルダ20260928ver",
+        "ReferenceType": "Sites",
+        "IncludeData": false,
+        "Order": "[10142,10177]"
+      },
+      {
+        "SiteId": 10142,
+        "SiteTitle": "支払管理",
+        "ReferenceType": "Results",
+        "IncludeData": false
+      },
+      {
+        "SiteId": 10177,
+        "SiteTitle": "マスタ支払先",
+        "ReferenceType": "Results",
+        "IncludeData": false
+      }
+    ],
+    "IncludeSitePermission": false,
+    "IncludeRecordPermission": false,
+    "IncludeColumnPermission": false,
+    "IncludeNotifications": false,
+    "IncludeReminders": false
+  },
+  "Sites": [
+    {
+      "TenantId": 1,
+      "SiteId": 10116,
+      "Title": "全銀フォルダ20260928ver",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "AnalyGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Sites",
+      "ParentId": 0,
+      "InheritPermission": 10116,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Sites",
+        "NoDisplayIfReadOnly": false,
+        "NotInheritPermissionsWhenCreatingSite": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    },
+    {
+      "TenantId": 1,
+      "SiteId": 10142,
+      "Title": "支払管理",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "[md]\n### 全銀CSVの出力手順\n1. 画面下部の「全銀CSV出力」を押します。\n2. 振込指定日を入力し、「CSV出力」を押します。\n3. 日付・件数・合計金額を確認し、OKを押します。\n4. 保存場所とファイル名を指定してCSVを保存します。\n5. 処理完了のメッセージを確認します。\n\n指定日の「未出力」をすべて出力します。一覧の絞り込み・行選択は使用しません。\n「出力済」はCSV保存の状態で、銀行での振込完了ではありません。\n保存先指定機能が使えるEdge／Chromeと、対応する接続環境で利用してください。\n保存後の更新が失敗した場合はCSVを再出力せず、「保存済みCSVの更新を再開」を押します。",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "AnalyGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Results",
+      "ParentId": 10116,
+      "InheritPermission": 10142,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Results",
+        "GridColumns": [
+          "ResultId",
+          "Status",
+          "DateA",
+          "ClassA",
+          "NumA",
+          "Body",
+          "DateB",
+          "Comments",
+          "UpdatedTime",
+          "Updator"
+        ],
+        "FilterColumns": [
+          "Status",
+          "ClassA",
+          "ClassI",
+          "ClassJ",
+          "ClassK",
+          "ClassL",
+          "ClassM",
+          "ClassN",
+          "ClassO",
+          "ClassP",
+          "ClassQ",
+          "ClassR",
+          "ClassS",
+          "ClassT",
+          "ClassU",
+          "ClassV",
+          "ClassW",
+          "ClassX",
+          "ClassY",
+          "ClassZ",
+          "NumA",
+          "NumB",
+          "NumC",
+          "NumD",
+          "NumE",
+          "NumF",
+          "NumG",
+          "NumH",
+          "NumI",
+          "NumJ",
+          "NumK",
+          "NumL",
+          "NumM",
+          "NumN",
+          "NumO",
+          "NumP",
+          "NumQ",
+          "NumR",
+          "NumS",
+          "NumT",
+          "NumU",
+          "NumV",
+          "NumW",
+          "NumX",
+          "NumY",
+          "NumZ",
+          "DateA",
+          "DateB",
+          "DateC",
+          "DateD",
+          "DateE",
+          "DateF",
+          "DateG",
+          "DateH",
+          "DateI",
+          "DateJ",
+          "DateK",
+          "DateL",
+          "DateM",
+          "DateN",
+          "DateO",
+          "DateP",
+          "DateQ",
+          "DateR",
+          "DateS",
+          "DateT",
+          "DateU",
+          "DateV",
+          "DateW",
+          "DateX",
+          "DateY",
+          "DateZ",
+          "CheckB",
+          "CheckC",
+          "CheckD",
+          "CheckE",
+          "CheckF",
+          "CheckG",
+          "CheckH",
+          "CheckI",
+          "CheckJ",
+          "CheckK",
+          "CheckL",
+          "CheckM",
+          "CheckN",
+          "CheckO",
+          "CheckP",
+          "CheckQ",
+          "CheckR",
+          "CheckS",
+          "CheckT",
+          "CheckU",
+          "CheckV",
+          "CheckW",
+          "CheckX",
+          "CheckY",
+          "CheckZ",
+          "DescriptionB"
+        ],
+        "EditorColumnHash": {
+          "General": [
+            "Title",
+            "Status",
+            "_Section-4",
+            "ClassA",
+            "NumA",
+            "DateA",
+            "Body",
+            "_Section-3",
+            "ClassB",
+            "ClassH",
+            "ClassC",
+            "ClassI",
+            "ClassD",
+            "ClassE",
+            "ClassF",
+            "ClassJ",
+            "_Section-1",
+            "DateB",
+            "DescriptionA",
+            "_Section-2",
+            "ResultId",
+            "Ver",
+            "Comments"
+          ]
+        },
+        "SectionLatestId": 4,
+        "Sections": [
+          {
+            "Id": 4,
+            "LabelText": "支払内容",
+            "AllowExpand": false,
+            "Expand": true
+          },
+          {
+            "Id": 3,
+            "LabelText": "支払先情報",
+            "AllowExpand": false,
+            "Expand": true
+          },
+          {
+            "Id": 1,
+            "LabelText": "支払処理",
+            "AllowExpand": false,
+            "Expand": true
+          },
+          {
+            "Id": 2,
+            "LabelText": "見出し",
+            "AllowExpand": false,
+            "Expand": true
+          }
+        ],
+        "TitleColumns": [
+          "DateA",
+          "ClassA"
+        ],
+        "Columns": [
+          {
+            "ColumnName": "Status",
+            "ChoicesText": "100,未出力\n900,出力済",
+            "ValidateRequired": true
+          },
+          {
+            "ColumnName": "ClassA",
+            "LabelText": "支払先",
+            "ChoicesText": "[\n  {\n    \"SiteId\": 10177,\n    \"Lookups\": [\n      {\n        \"From\": \"ClassB\",\n        \"To\": \"ClassB\"\n      },\n      {\n        \"From\": \"ClassC\",\n        \"To\": \"ClassC\"\n      },\n      {\n        \"From\": \"ClassD\",\n        \"To\": \"ClassD\"\n      },\n      {\n        \"From\": \"ClassE\",\n        \"To\": \"ClassE\"\n      },\n      {\n        \"From\": \"ClassF\",\n        \"To\": \"ClassF\"\n      },\n      {\n        \"From\": \"ClassJ\",\n        \"To\": \"ClassJ\"\n      },\n      {\n        \"From\": \"ClassH\",\n        \"To\": \"ClassH\"\n      },\n      {\n        \"From\": \"ClassI\",\n        \"To\": \"ClassI\"\n      }\n    ]\n  }\n]",
+            "AutoPostBack": true,
+            "ColumnsReturnedWhenAutomaticPostback": "ClassB,ClassC,ClassD,ClassE,ClassF,ClassH,ClassI,ClassJ",
+            "SearchType": "PartialMatch"
+          },
+          {
+            "ColumnName": "ClassB",
+            "LabelText": "受取人銀行番号",
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "ClassC",
+            "LabelText": "受取人支店番号",
+            "NoWrap": true,
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "ClassD",
+            "LabelText": "預金種目",
+            "ChoicesText": "1,普通\n2,当座\n4,貯蓄",
+            "NoWrap": true,
+            "EditorReadOnly": true,
+            "SearchType": "PartialMatch"
+          },
+          {
+            "ColumnName": "ClassE",
+            "LabelText": "受取人口座番号",
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "ClassF",
+            "LabelText": "受取人名（カナ）",
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "NumA",
+            "LabelText": "送金金額",
+            "Format": "N",
+            "Unit": "円",
+            "DateFilterSetMode": 2
+          },
+          {
+            "ColumnName": "ClassH",
+            "LabelText": "銀行名",
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "DateA",
+            "LabelText": "振込指定日",
+            "DateFilterSetMode": 2
+          },
+          {
+            "ColumnName": "DateB",
+            "LabelText": "出力日時",
+            "EditorFormat": "Ymdhm",
+            "EditorReadOnly": true,
+            "DateFilterSetMode": 2
+          },
+          {
+            "ColumnName": "DescriptionA",
+            "LabelText": "出力ファイル名",
+            "EditorReadOnly": true,
+            "FieldCss": "field-wide"
+          },
+          {
+            "ColumnName": "Body",
+            "LabelText": "摘要"
+          },
+          {
+            "ColumnName": "ClassI",
+            "LabelText": "支店名",
+            "EditorReadOnly": true
+          },
+          {
+            "ColumnName": "ClassJ",
+            "LabelText": "登録番号",
+            "EditorReadOnly": true
+          }
+        ],
+        "Links": [
+          {
+            "ColumnName": "ClassA",
+            "SiteId": 10177,
+            "Lookups": [
+              {
+                "From": "ClassB",
+                "To": "ClassB"
+              },
+              {
+                "From": "ClassC",
+                "To": "ClassC"
+              },
+              {
+                "From": "ClassD",
+                "To": "ClassD"
+              },
+              {
+                "From": "ClassE",
+                "To": "ClassE"
+              },
+              {
+                "From": "ClassF",
+                "To": "ClassF"
+              },
+              {
+                "From": "ClassJ",
+                "To": "ClassJ"
+              },
+              {
+                "From": "ClassH",
+                "To": "ClassH"
+              },
+              {
+                "From": "ClassI",
+                "To": "ClassI"
+              }
+            ],
+            "JsonFormat": true
+          }
+        ],
+        "Scripts": [
+          {
+            "Title": "楽天銀行 全銀CSV出力",
+            "Index": true,
+            "Body": "/* 楽天銀行・法人総合振込: 全銀CSV。固定長120バイト形式とは別形式。 */\n(function (root) {\n    'use strict';\n    const columns = ['ResultId', 'SiteId', 'UpdatedTime', 'Title', 'Status',\n        'ClassA', 'ClassB', 'ClassC', 'ClassD', 'ClassE', 'ClassF',\n        'NumA', 'DateA', 'DateB', 'DescriptionA'];\n    // DefaultはAPI利用者のタイムゾーンに変換済みの日付を返す。\n    const view = () => ({ ApiDataType: 'Default', Incomplete: false,\n        ColumnSorterHash: { ResultId: 'asc' } });\n    function normalize(r) {\n        const flat = { ...r, ...r.ClassHash, ...r.NumHash, ...r.DateHash, ...r.DescriptionHash };\n        flat.Title = r.ItemTitle || r.Title;\n        return flat;\n    }\n    function requireValue(ok, message) { if (!ok) throw new Error(message); }\n    function digits(value, length, name, exact = false) {\n        const s = String(value ?? '');\n        requireValue(/^[0-9]+$/.test(s) && s.length <= length && (!exact || s.length === length),\n            name + ': 半角数字' + (exact ? length : '1～' + length) + '桁で指定してください。');\n        return s.padStart(length, '0');\n    }\n    function kana(value, max, name) {\n        const s = String(value ?? '');\n        requireValue(/^[0-9A-Zｱ-ﾝﾞﾟ()./ -]+$/.test(s) && s.trim().length > 0 && s.length <= max,\n            name + ': 使用可能な半角文字で1～' + max + '文字。長音は半角ハイフンを使用してください。');\n        return s;\n    }\n    function day(value) {\n        const s = String(value ?? '').slice(0, 10);\n        requireValue(/^\\d{4}-\\d{2}-\\d{2}$/.test(s), '振込指定日が不正です。');\n        const d = new Date(s + 'T00:00:00Z');\n        requireValue(!isNaN(d) && d.toISOString().slice(0, 10) === s && s >= '2000-01-01',\n            '振込指定日が未入力または不正です。');\n        return s;\n    }\n    function eligible(r) { return Number(r.Status) === 100; }\n    function fingerprint(r) {\n        return JSON.stringify(columns.filter(c => c !== 'Title').map(c => r[c] ?? null));\n    }\n    function build(records, cfg) {\n        requireValue(records.length > 0 && records.length <= 999999, '出力対象を1～999999件選択してください。');\n        const ids = new Set();\n        const date = day(records[0].DateA);\n        const rows = [['1', '21', '0', digits(cfg.companyCode, 10, '委託者コード', true),\n            kana(cfg.companyName, 40, '委託者名'), date.slice(5, 7) + date.slice(8, 10),\n            '0036', '', digits(cfg.branch, 3, '依頼人支店番号', true), '', '1',\n            digits(cfg.account, 7, '依頼人口座番号'), '']];\n        let total = 0;\n        for (const r of records) {\n            try {\n            const id = digits(r.ResultId, 20, 'レコードID').replace(/^0+/, '');\n            requireValue(id !== '' && !ids.has(id), 'レコードIDが0または重複しています。');\n            ids.add(id);\n            requireValue(eligible(r), 'ID ' + id + ': 未出力ではありません。');\n            requireValue(day(r.DateA) === date, '異なる振込指定日を同じファイルに出力できません。');\n            requireValue(['1', '2', '4'].includes(String(r.ClassD)), 'ID ' + id + ': 預金種目は1・2・4のみです。');\n            const amount = Number(r.NumA);\n            requireValue(Number.isSafeInteger(amount) && amount > 0 && amount <= 9999999999,\n                'ID ' + id + ': 金額は1～9999999999の整数にしてください。');\n            total += amount;\n            requireValue(total <= 999999999999, '合計金額が12桁を超えています。');\n            rows.push(['2', digits(r.ClassB, 4, '銀行番号', true), '',\n                digits(r.ClassC, 3, '支店番号', true), '', '', String(r.ClassD),\n                digits(r.ClassE, 7, '口座番号'), kana(r.ClassF, 30, '受取人名'),\n                digits(amount, 10, '金額'), '1', id, '', '', '']);\n            } catch (e) { throw new Error('ID ' + r.ResultId + ': ' + e.message); }\n        }\n        rows.push(['8', digits(records.length, 6, '件数'), digits(total, 12, '合計金額'), '']);\n        rows.push(['9', '']);\n        // 未使用欄を空欄として残すため、行末のカンマも必要。\n        return { rows, text: rows.map(r => r.join(',')).join('\\r\\n') + '\\r\\n', total, date };\n    }\n    function bytes(text) {\n        // 許可済み半角文字のみ。ASCII + JIS X 0201カナ (Shift-JIS互換)。BOMなし。\n        return Uint8Array.from(Array.from(text, c => {\n            const n = c.charCodeAt(0);\n            if (n <= 0x7f) return n;\n            if (n >= 0xff61 && n <= 0xff9f) return n - 0xff61 + 0xa1;\n            throw new Error('1バイトに変換できない文字です: ' + c);\n        }));\n    }\n    function timestamp(d = new Date()) {\n        const p = n => String(n).padStart(2, '0');\n        return d.getFullYear() + '-' + p(d.getMonth()+1) + '-' + p(d.getDate()) + 'T' +\n            p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());\n    }\n    function filename(date, stamp) {\n        return '楽天銀行_総合振込_振込日' + day(date).replace(/-/g, '') + '_作成' + stamp.slice(0, 10).replace(/-/g, '') + '_' +\n            stamp.slice(11).replace(/:/g, '') + '.csv';\n    }\n    function updateData(stamp, name) {\n        return { ApiVersion: 1.1, Status: 900,\n            DateHash: { DateB: stamp }, DescriptionHash: { DescriptionA: name } };\n    }\n    root.Zengin = { columns, view, normalize, build, bytes, day, eligible, fingerprint,\n        timestamp, filename, updateData, requireValue };\n    if (typeof module !== 'undefined') module.exports = root.Zengin;\n})(typeof globalThis !== 'undefined' ? globalThis : this);\n\n/* 上のZengin本体と合わせて「一覧」スクリプトに登録。 */\n\n(function () {\n    'use strict';\n    const CONFIG = { companyCode: '1234567890', companyName: 'ﾃｽﾄ', branch: '201', account: '1234567' };\n    const Z = window.Zengin, siteId = Number($p.siteId());\n    const storageKey = 'rakuten-zengin-status-pending-v3-' + location.origin + '-' + siteId;\n    if (window.RakutenZenginMount) { window.RakutenZenginMount(); return; }\n    let busy = false, prepared = null;\n    const $open = $('<button id=\"RakutenZenginOpen\" type=\"button\" style=\"border-radius:0;background:#FF9800;color:#212121;font-weight:bold;padding:8px 16px;border:1px solid #E68900\">全銀CSV出力</button>');\n    function openDialog() { prepared=null; refreshRecovery(); $dialog[0].showModal(); }\n    function mountButton() {\n        if (!$('#RakutenZenginOpen').length) {\n            // 一覧更新で削除されるとjQueryのイベントも消えるため再設定する。\n            $open.off('click').on('click',openDialog);\n            $('#MainCommands').append($open);\n        }\n    }\n    window.RakutenZenginMount=mountButton;\n    const previousGridLoad=$p.events.on_grid_load;\n    $p.events.on_grid_load=function() {\n        try { if(typeof previousGridLoad==='function') return previousGridLoad.apply(this,arguments); }\n        finally { mountButton(); }\n    };\n    mountButton();\n    const $dialog = $('<dialog style=\"width:600px;max-width:90vw;box-sizing:border-box;padding:32px;font-size:18px;border:1px solid #999;border-radius:8px\"></dialog>').appendTo('body');\n    const $date = $('<input type=\"date\" aria-label=\"振込指定日\" style=\"font-size:20px;padding:10px;margin:16px 12px\">');\n    const $export = $('<button type=\"button\" style=\"font-size:18px;padding:10px 20px\">CSV出力</button>');\n    const $close = $('<button type=\"button\" style=\"font-size:18px;padding:10px 20px;margin-left:12px\">閉じる</button>');\n    const $retry = $('<button type=\"button\">保存済みCSVの更新を再開</button>');\n    const $cancelPending = $('<button type=\"button\">未保存の処理を取り消す</button>');\n    const $confirmSaved = $('<button type=\"button\">前回のCSV保存を確認したので更新する</button>');\n    $dialog.append($('<h2>全銀CSV出力</h2>'), '振込指定日', $date, $('<p>指定日の「未出力」をすべて出力します。<br>一覧の絞り込み・行選択は使用しません。</p>'), $export, $close, $('<hr>'), $retry, $confirmSaved, $cancelPending);\n    const $confirm = $('<dialog style=\"width:440px;max-width:90vw;padding:28px;font-size:18px;border-radius:8px\"></dialog>').appendTo('body');\n    const $summary = $('<p style=\"white-space:pre-wrap\"></p>');\n    const $ok = $('<button type=\"button\" style=\"font-size:18px;padding:10px 24px\">OK</button>');\n    const $back = $('<button type=\"button\" style=\"font-size:18px;padding:10px 24px;margin-left:12px\">キャンセル</button>');\n    $confirm.append($('<h2>出力内容の確認</h2>'), $summary, $ok, $back);\n    function lock(value) { busy=value; [$open,$date,$export,$close,$retry,$confirmSaved,$cancelPending,$ok,$back].forEach(e=>e.prop('disabled',value)); }\n    function refreshRecovery() { const p=pending(); $retry.toggle(!!p && p.phase==='saved'); $confirmSaved.toggle(!!p && p.phase!=='saved'); $cancelPending.toggle(!!p && p.phase!=='saved'); }\n    function error(e, saved=false) { window.alert((saved ? 'CSV保存済み・更新未完了です。' : '処理を中止しました。CSVは保存されていません。')+'\\n'+e.message); }\n    function pending() { const s = localStorage.getItem(storageKey); return s ? JSON.parse(s) : null; }\n    function persist(p) { localStorage.setItem(storageKey, JSON.stringify(p)); }\n    function api(method, id, data) {\n        return new Promise((resolve, reject) => {\n            $p[method]({ id, data, done: result => {\n                if (!result || Number(result.StatusCode) !== 200) reject(new Error('ID ' + id + ': APIエラー (' + String(result?.StatusCode) + ')'));\n                else resolve(result.Response);\n            }, fail: xhr => reject(new Error('ID ' + id + ': 通信エラー (' + xhr.status + ')')) });\n        });\n    }\n    async function getRecord(id) {\n        const response = await api('apiGet', id, { ApiVersion: 1.1, View: Z.view() });\n        Z.requireValue(response && response.Data?.length === 1, 'ID ' + id + ': 取得できません。');\n        const r = Z.normalize(response.Data[0]);\n        Z.requireValue(Number(r.SiteId) === siteId && String(r.ResultId) === String(id), '対象サイトまたはIDが一致しません。');\n        return r;\n    }\n    async function getTargets(date) {\n        const records = [], seen = new Set();\n        let offset = 0, total = null;\n        const view = Z.view();\n        view.ColumnFilterHash = {Status:'[100]', DateA: JSON.stringify([date + ' 00:00:00,' + date + ' 23:59:59'])};\n        for (;;) {\n            const response = await api('apiGet', siteId, {ApiVersion:1.1, Offset:offset, View:view});\n            Z.requireValue(response && Array.isArray(response.Data) && Number.isInteger(response.TotalCount), '取得結果が不正です。');\n            if (total === null) total = response.TotalCount;\n            Z.requireValue(total === response.TotalCount, '取得中に対象件数が変わりました。再確認してください。');\n            for (const raw of response.Data) {\n                const r = Z.normalize(raw), id = String(r.ResultId);\n                Z.requireValue(Number(r.SiteId) === siteId && Z.eligible(r) && Z.day(r.DateA) === date, 'ID ' + id + ': 取得条件が一致しません。');\n                Z.requireValue(!seen.has(id), '取得中にIDが重複しました。再確認してください。');\n                seen.add(id); records.push(r);\n            }\n            offset += response.Data.length;\n            Z.requireValue(offset <= total, '取得件数が一致しません。再確認してください。');\n            if (offset === total) break;\n            Z.requireValue(response.Data.length > 0, '取得が途中で停止しました。');\n        }\n        return records.sort((a,b)=>Number(a.ResultId)-Number(b.ResultId));\n    }\n    async function recheck(records, date) {\n        const current = await getTargets(date);\n        Z.requireValue(current.length === records.length && current.every((r,i)=>Z.fingerprint(r) === Z.fingerprint(records[i])),\n            '対象または内容が変わりました。「CSV出力」からやり直してください。');\n    }\n\n    async function complete(p) {\n        Z.requireValue(p.phase==='saved','CSVの保存確認が済んでいません。');\n        const failed=[];\n        for (const item of p.items) {\n            if(item.done) continue;\n            try {\n                const current=await getRecord(item.record.ResultId);\n                if (!(Number(current.Status)===900 && current.DescriptionA===p.name && String(current.DateB).slice(0,19)===p.stamp)) {\n                    Z.requireValue(Z.fingerprint(current)===Z.fingerprint(item.record),'取得後に変更されています。');\n                    await api('apiUpdate',current.ResultId,Z.updateData(p.stamp,p.name));\n                    const result=await getRecord(current.ResultId);\n                    Z.requireValue(Number(result.Status)===900 && result.DescriptionA===p.name && String(result.DateB).slice(0,19)===p.stamp,'更新後の値を確認できません。');\n                }\n                item.done=true; item.error='';\n            } catch(e) { item.error=e.message; failed.push(item.record.ResultId+': '+e.message); }\n            persist(p);\n        }\n        prepared=null;\n        if(failed.length) window.alert('CSV保存済み・更新未完了\\n'+p.name+'\\n未完了 '+failed.length+'件\\n'+failed.join('\\n')+'\\nCSVを再出力せず「保存済みCSVの更新を再開」を押してください。');\n        else { localStorage.removeItem(storageKey); window.alert('処理完了\\n'+p.items.length+'件を出力済にしました。\\n'+p.name); $dialog[0].close(); location.reload(); }\n    }\n    $close.on('click',function(){if(!busy)$dialog[0].close();});\n    $dialog.on('cancel',function(e){if(busy)e.preventDefault();});\n    $confirm.on('cancel',function(e){if(busy)e.preventDefault();else prepared=null;});\n    $back.on('click',function(){prepared=null;$confirm[0].close();});\n    $export.on('click',async function(){\n        if(busy)return;lock(true);\n        try {\n            Z.requireValue(typeof window.showSaveFilePicker==='function','保存先指定機能が使えるEdge／Chromeと、対応する接続環境で開いてください。');\n            Z.requireValue(!pending(),'前回の保存・更新が未完了です。復旧用ボタンで確認してください。');\n            const date=Z.day($date.val()), records=await getTargets(date);\n            Z.requireValue(records.length>0,'指定日に未出力のレコードはありません。');\n            const csv=Z.build(records,CONFIG);prepared={records,csv};\n            $summary.text('振込指定日 '+csv.date+'\\n件数 '+records.length+'件\\n合計金額 '+csv.total.toLocaleString()+'円\\n\\nCSVを保存しますか？');$confirm[0].showModal();\n        }catch(e){error(e);}finally{lock(false);refreshRecovery();}\n    });\n    $ok.on('click',async function(){\n        if(busy||!prepared)return;lock(true);$confirm[0].close();let p;\n        try {\n            const stamp=Z.timestamp();\n            const handle=await window.showSaveFilePicker({suggestedName:Z.filename(prepared.csv.date,stamp),types:[{description:'全銀CSV',accept:{'text/csv':['.csv']}}]});\n            await recheck(prepared.records,prepared.csv.date);\n            const bytes=Z.bytes(prepared.csv.text);\n            p={name:handle.name,stamp,phase:'awaitingSave',items:prepared.records.map(record=>({record,done:false}))};persist(p);\n            const stream=await handle.createWritable();\n            try {await stream.write(bytes);await stream.close();}catch(e){try{await stream.abort();}catch(_){}throw e;}\n            p.phase='saved';persist(p);await complete(p);\n        }catch(e){if(p?.phase==='awaitingSave')localStorage.removeItem(storageKey);if(e.name==='AbortError')window.alert('保存を中止しました。出力済には変更していません。');else error(e,p?.phase==='saved');}\n        finally{lock(false);refreshRecovery();}\n    });\n    $retry.on('click',async function(){if(busy)return;lock(true);try{const p=pending();Z.requireValue(p&&p.phase==='saved','保存済みの更新情報がありません。');await complete(p);}catch(e){error(e,true);}finally{lock(false);refreshRecovery();}});\n    $confirmSaved.on('click',async function(){if(busy)return;if(!window.confirm('前回のCSVが正しく保存されていることを確認しましたか？'))return;lock(true);try{const p=pending();Z.requireValue(p&&p.phase!=='saved','未保存の処理情報がありません。');p.phase='saved';persist(p);await complete(p);}catch(e){error(e,true);}finally{lock(false);refreshRecovery();}});\n    $cancelPending.on('click',function(){const p=pending();if(p&&p.phase!=='saved'&&window.confirm('前回のCSVが保存されていないことを確認しましたか？')){localStorage.removeItem(storageKey);prepared=null;refreshRecovery();}});\n})();\n",
+            "Id": 1
+          }
+        ],
+        "ServerScripts": [
+          {
+            "Title": "出力済の編集制限（画面）",
+            "Name": "",
+            "BeforeOpeningPage": true,
+            "BeforeOpeningRow": true,
+            "Body": "// サーバスクリプト：画面表示の前、行表示の前\n(function () {\n    const fields = ['Title','Body','ClassA','ClassB','ClassC','ClassD','ClassE','ClassF','ClassH','ClassI','ClassJ','NumA','DateA'];\n    if (Number(model.Status) === 900) {\n        fields.forEach(function (name) { if (columns[name]) columns[name].ReadOnly = true; });\n    }\n    // 状況を未出力に戻す操作は残す。出力情報はスクリプトが記録する。\n    columns.Status.ReadOnly = false;\n    columns.DateB.ReadOnly = true;\n    columns.DescriptionA.ReadOnly = true;\n})();\n",
+            "Id": 1
+          },
+          {
+            "Title": "出力済の編集制限（保存）",
+            "Name": "",
+            "BeforeUpdate": true,
+            "Body": "// サーバスクリプト：更新前。画面・APIの双方で検査する。\n(function () {\n    const status = Number(model.Status);\n    const previous = Number(saved.Status);\n    if (status !== 100 && status !== 900) {\n        context.Error('状況は「未出力」「出力済」のいずれかにしてください。');\n        return;\n    }\n    let fields = ['Body','ClassA','ClassB','ClassC','ClassD','ClassE','ClassF','ClassH','ClassI','ClassJ','NumA','DateA'];\n    // Titleは既存の計算式から生成されるため比較対象外。\n    if (previous === 900) fields = fields.concat(['DateB','DescriptionA']);\n    if (previous === 900 || status === 900) {\n        const changed = fields.filter(function (name) { return String(model[name]) !== String(saved[name]); });\n        if (changed.length) {\n            context.Error('出力済の内容は変更できません。先に状況だけを「未出力」に戻して保存し、その後に編集してください。変更項目: ' + changed.join(', '));\n        }\n    }\n})();\n",
+            "Id": 2
+          },
+          {
+            "Title": "新規登録は未出力",
+            "BeforeCreate": true,
+            "Body": "// サーバスクリプト：作成前\nmodel.Status = 100;\n",
+            "Id": 3
+          }
+        ],
+        "TitleSeparator": "_",
+        "NoDisplayIfReadOnly": false,
+        "NotInheritPermissionsWhenCreatingSite": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    },
+    {
+      "TenantId": 1,
+      "SiteId": 10177,
+      "Title": "マスタ支払先",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "AnalyGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Results",
+      "ParentId": 10116,
+      "InheritPermission": 10177,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Results",
+        "GridColumns": [
+          "ResultId",
+          "ClassA",
+          "Title",
+          "ClassH",
+          "ClassI",
+          "ClassD",
+          "ClassE",
+          "ClassF",
+          "ClassJ",
+          "Status",
+          "Updator",
+          "UpdatedTime"
+        ],
+        "FilterColumns": [
+          "Status",
+          "ClassE",
+          "ClassH",
+          "ClassI",
+          "ClassK",
+          "ClassL",
+          "ClassM",
+          "ClassN",
+          "ClassO",
+          "ClassP",
+          "ClassQ",
+          "ClassR",
+          "ClassS",
+          "ClassT",
+          "ClassU",
+          "ClassV",
+          "ClassW",
+          "ClassX",
+          "ClassY",
+          "ClassZ",
+          "NumA",
+          "NumB",
+          "NumC",
+          "NumD",
+          "NumE",
+          "NumF",
+          "NumG",
+          "NumH",
+          "NumI",
+          "NumJ",
+          "NumK",
+          "NumL",
+          "NumM",
+          "NumN",
+          "NumO",
+          "NumP",
+          "NumQ",
+          "NumR",
+          "NumS",
+          "NumT",
+          "NumU",
+          "NumV",
+          "NumW",
+          "NumX",
+          "NumY",
+          "NumZ",
+          "DateA",
+          "DateB",
+          "DateC",
+          "DateD",
+          "DateE",
+          "DateF",
+          "DateG",
+          "DateH",
+          "DateI",
+          "DateJ",
+          "DateK",
+          "DateL",
+          "DateM",
+          "DateN",
+          "DateO",
+          "DateP",
+          "DateQ",
+          "DateR",
+          "DateS",
+          "DateT",
+          "DateU",
+          "DateV",
+          "DateW",
+          "DateX",
+          "DateY",
+          "DateZ",
+          "CheckA",
+          "CheckB",
+          "CheckC",
+          "CheckD",
+          "CheckE",
+          "CheckF",
+          "CheckG",
+          "CheckH",
+          "CheckI",
+          "CheckJ",
+          "CheckK",
+          "CheckL",
+          "CheckM",
+          "CheckN",
+          "CheckO",
+          "CheckP",
+          "CheckQ",
+          "CheckR",
+          "CheckS",
+          "CheckT",
+          "CheckU",
+          "CheckV",
+          "CheckW",
+          "CheckX",
+          "CheckY",
+          "CheckZ"
+        ],
+        "EditorColumnHash": {
+          "General": [
+            "Title",
+            "ClassB",
+            "ClassH",
+            "ClassC",
+            "ClassI",
+            "ClassD",
+            "ClassE",
+            "ClassF",
+            "ClassJ",
+            "Body",
+            "Status",
+            "Ver",
+            "Comments"
+          ]
+        },
+        "Columns": [
+          {
+            "ColumnName": "Title",
+            "LabelText": "支払先名"
+          },
+          {
+            "ColumnName": "ClassB",
+            "LabelText": "受取人銀行番号",
+            "NoWrap": true,
+            "ValidateRequired": true,
+            "ValidateMaxLength": 4,
+            "ClientRegexValidation": "^[0-9]{4}$",
+            "ServerRegexValidation": "^[0-9]{4}$",
+            "RegexValidationMessage": "銀行番号は半角数字4桁で入力してください。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">必須：半角数字4桁。先頭の0も入力してください。例：0036</div>"
+          },
+          {
+            "ColumnName": "ClassC",
+            "LabelText": "受取人支店番号",
+            "NoWrap": true,
+            "ValidateRequired": true,
+            "ValidateMaxLength": 3,
+            "ClientRegexValidation": "^[0-9]{3}$",
+            "ServerRegexValidation": "^[0-9]{3}$",
+            "RegexValidationMessage": "支店番号は半角数字3桁で入力してください。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">必須：半角数字3桁。先頭の0も入力してください。例：001</div>"
+          },
+          {
+            "ColumnName": "ClassD",
+            "LabelText": "預金種目",
+            "ChoicesText": "1,普通\n2,当座\n4,貯蓄",
+            "NoWrap": true,
+            "ValidateRequired": true,
+            "ClientRegexValidation": "^[124]$",
+            "ServerRegexValidation": "^[124]$",
+            "RegexValidationMessage": "預金種目は普通・当座・貯蓄から選択してください。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">必須：普通・当座・貯蓄から選択してください。</div>",
+            "SearchType": "PartialMatch"
+          },
+          {
+            "ColumnName": "ClassE",
+            "LabelText": "受取人口座番号",
+            "NoWrap": true,
+            "ValidateRequired": true,
+            "ValidateMaxLength": 7,
+            "ClientRegexValidation": "^[0-9]{1,7}$",
+            "ServerRegexValidation": "^[0-9]{1,7}$",
+            "RegexValidationMessage": "口座番号は半角数字1～7桁で入力してください。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">必須：半角数字1～7桁。CSV出力時に左側を0で埋めて7桁にします。</div>"
+          },
+          {
+            "ColumnName": "ClassF",
+            "LabelText": "受取人名（ｶﾅ）",
+            "NoWrap": true,
+            "ValidateRequired": true,
+            "ValidateMaxLength": 30,
+            "ClientRegexValidation": "^(?=[0-9A-Zｱ-ﾝﾞﾟ()./ -]{1,30}$)[0-9A-Zｱ-ﾝﾞﾟ()./ -]*[0-9A-Zｱ-ﾝﾞﾟ()./\\-][0-9A-Zｱ-ﾝﾞﾟ()./ -]*$",
+            "ServerRegexValidation": "^(?=[0-9A-Zｱ-ﾝﾞﾟ()./ -]{1,30}$)[0-9A-Zｱ-ﾝﾞﾟ()./ -]*[0-9A-Zｱ-ﾝﾞﾟ()./\\-][0-9A-Zｱ-ﾝﾞﾟ()./ -]*$",
+            "RegexValidationMessage": "受取人名は使用可能な半角文字で1～30文字にしてください。空白だけは不可。長音は半角ハイフン「-」を使ってください。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:0px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">必須：半角カナ（ｱ～ﾝ・ﾞ・ﾟ）・英大文字・数字・記号（( ) . / -）・半角スペースで30文字以内。小書きのｧ・ｬ等は大文字のｱ・ﾔ等にし、長音は半角ハイフン「-」。<br>空白だけの入力は不可。</div>"
+          },
+          {
+            "ColumnName": "ClassH",
+            "LabelText": "銀行名",
+            "NoWrap": true,
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">任意：銀行名を入力してください。確認用の項目で、現在のCSVには出力されません。</div>"
+          },
+          {
+            "ColumnName": "ClassI",
+            "LabelText": "支店名",
+            "NoWrap": true,
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">任意：支店名を入力してください。確認用の項目で、現在のCSVには出力されません。</div>"
+          },
+          {
+            "ColumnName": "Status",
+            "ChoicesText": "100,使用中\n900,使用停止",
+            "NoWrap": true,
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">使用中・使用停止を選択してください。使用停止にしても、現在の支払管理の選択肢からは除外されません。</div>"
+          },
+          {
+            "ColumnName": "Body",
+            "LabelText": "備考"
+          },
+          {
+            "ColumnName": "ClassJ",
+            "LabelText": "登録番号",
+            "NoWrap": true,
+            "ValidateMaxLength": 14,
+            "ClientRegexValidation": "^(?:T[0-9]{13})?$",
+            "ServerRegexValidation": "^(?:T[0-9]{13})?$",
+            "RegexValidationMessage": "登録番号は半角の大文字T＋数字13桁で入力してください。未入力でも構いません。",
+            "ExtendedHtmlAfterField": "<div style=\"float:left;margin:6px 0 12px 0px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">任意：入力する場合は半角の大文字T＋数字13桁。例：T1234567890123。現在のCSVには出力されません。</div>"
+          },
+          {
+            "ColumnName": "Comments",
+            "ExtendedHtmlAfterField": "<div style=\"clear:both;margin:0 0 12px 120px;color:#555;font-size:13px;line-height:1.6;overflow-wrap:anywhere;\">任意：変更理由などの記録に使います。現在のCSVには出力されません。</div>"
+          },
+          {
+            "ColumnName": "Ver",
+            "NoWrap": true
+          }
+        ],
+        "NoDisplayIfReadOnly": false,
+        "NotInheritPermissionsWhenCreatingSite": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    }
+  ],
+  "Data": [],
+  "Permissions": [],
+  "PermissionIdList": {
+    "DeptIdList": [],
+    "GroupIdList": [],
+    "UserIdList": []
+  }
+}

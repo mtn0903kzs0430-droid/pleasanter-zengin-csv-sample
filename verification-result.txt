@@ -1,0 +1,42 @@
+2026-10-16 v0.2.0 distribution verification. No live Pleasanter or bank operations.
+
+PASS original Excel SHA256 unchanged; prior distribution preserved.
+
+PASS site-package JSON, browser JS and server JS unchanged from v0.1.0.
+
+PASS Excel ZIP/XML, cleared settings and operational data, all four sheet protections.
+
+PASS VBA binary differs only by three same-length username cache substitutions; all native VBA exports equal source.
+
+PASS form binary equal excluding root storage timestamps regenerated on native export.
+
+PASS independently checked mock: 3 records / 56245 yen / all statuses 900 / one CSV / record sequence 1,2,2,2,8,9.
+
+PASS native Excel read-only reopen / VBA references not broken / all exported VBA and form source text equal source snapshot
+PASS blank settings and internal state / all four sheets protected / four native worksheet renders
+PASS: missing environment key / restart guidance
+PASS: calendar initialized to current month and today / navigation
+PASS: paging / save CSV / partial failure / retry / update verification
+PASS successful retry returns to 支払データ!A1
+PASS single CSV created; retry did not create a second CSV
+
+$ node tests/verify-package.cjs
+PASS package structure / empty data and permissions / links and order / source consistency / JS syntax / regex syntax
+
+$ node tests/browser-flow.cjs
+PASS grid refresh remount / click handler restored / no duplicate dialogs or buttons / previous event preserved
+PASS rename / exact CSV bytes / update filename / completion
+PASS cancelled and failed save do not update
+PASS invalid amount popup
+PASS retry without duplicate CSV
+PASS changed target blocks save
+PASS unsupported environment popup
+PASS confirmation cancel
+
+PASS 20 relative Markdown links resolve.
+
+PASS limited confidential-data scan of text sources and Excel XML/binary. This scan is not a guarantee of universal detection.
+
+PASS Git ignore engine: only the named distribution XLSM allowed; other XLSM, lock files and CSV ignored.
+
+NOTE license not selected; live import, live API, manual calendar interaction and bank acceptance unverified.
