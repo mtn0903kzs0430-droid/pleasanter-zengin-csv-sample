@@ -46,3 +46,11 @@ NOTE at the v0.2.0 verification date the license was not selected. MIT was adopt
 PASS all JSON / Excel / VBA / forms / JS / test fixtures byte-identical to v0.2.0.
 PASS 24 relative Markdown links resolve.
 PASS README sample / user responsibility / unverified scope / no warranty / MIT notices present.
+
+
+2026-10-18 v0.2.2 documentation verification.
+PASS exact user-supplied four sentences present twice (opening alert and body).
+PASS superseded disclaimer qualifications removed from current README; unverified scope retained.
+PASS LICENSE / JSON / Excel / executable sources / test fixtures byte-identical to v0.2.1.
+PASS 24 relative Markdown links resolve.
+NOTE no additional functional, live API or bank tests performed for this wording-only change.
