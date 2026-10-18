@@ -39,4 +39,10 @@ PASS limited confidential-data scan of text sources and Excel XML/binary. This s
 
 PASS Git ignore engine: only the named distribution XLSM allowed; other XLSM, lock files and CSV ignored.
 
-NOTE license not selected; live import, live API, manual calendar interaction and bank acceptance unverified.
+NOTE at the v0.2.0 verification date the license was not selected. MIT was adopted on 2026-10-18. Live import, live API, manual calendar interaction and bank acceptance remain unverified.
+
+
+2026-10-18 v0.2.1 documentation and licensing verification. No executable content changed.
+PASS all JSON / Excel / VBA / forms / JS / test fixtures byte-identical to v0.2.0.
+PASS 24 relative Markdown links resolve.
+PASS README sample / user responsibility / unverified scope / no warranty / MIT notices present.
