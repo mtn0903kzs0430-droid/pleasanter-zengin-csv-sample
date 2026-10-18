@@ -54,3 +54,10 @@ PASS superseded disclaimer qualifications removed from current README; unverifie
 PASS LICENSE / JSON / Excel / executable sources / test fixtures byte-identical to v0.2.1.
 PASS 24 relative Markdown links resolve.
 NOTE no additional functional, live API or bank tests performed for this wording-only change.
+
+
+2026-10-18 v0.2.3 blog-link documentation verification.
+PASS requested blog name and exact article URL in README.
+PASS license, disclaimer, JSON, Excel and executable sources unchanged.
+PASS 24 relative Markdown links resolve.
+NOTE no additional functional tests for this documentation-only change.
